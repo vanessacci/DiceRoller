@@ -1,0 +1,82 @@
+.container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #36AE7C;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Phudu', cursive;
+  /* text-shadow: 5px 0 #187498; */
+  font-size: 8rem;
+  color: #187498;
+}
+
+p {
+  font-size: 2rem;
+  color: #187498;
+  font-family: 'Handjet', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+/* footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Rubik Iso', cursive;
+
+} */
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap'); */
+
+.btn{
+
+font-family: 'Phudu', cursive;
+font-weight: 0;
+font-size: 14px;
+color: #fff;
+background-color: #187498;
+padding: 10px 25px;
+border: solid #187498 2px;
+box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+border-radius: 50px;
+transition : 690ms;
+transform: translateY(0);
+/* display: flex;
+flex-direction: row;
+align-items: center; */
+/* align-self: center; */
+cursor: pointer;
+/* position: absolute;
+top: 50%; */
+}
+
+.btn:hover{
+transition : 690ms;
+padding: 10px 30px;
+transform : translateY(-0px);
+background-color: #fff;
+color: #187498;
+border: solid 2px #187498;
+}
+.button-container{
+  width: 80%;
+  margin: auto;
+  padding-top: 3%;
+  text-align: center;
+}
+
